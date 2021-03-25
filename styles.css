@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+div {
+  border: 1px solid red;
+}
+
+/* header {
+  background-image:
+} */
+
+img {
+  max-width: 500px;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #6ddccf;
+}
+
+.card {
+  background-color: beige;
+  width: 440px;
+  height: 440px;
+}
+
+.client-image {
+  background-color: green;
+  height: 300px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+.client-name {
+  margin-bottom: 15px;
+}
+
+.client-1 {
+  background-image: url('https://images.unsplash.com/photo-1509839862600-309617c3201e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')
+}
+
+.client-2 {
+  background-image: url("/images/dylanwithers.jpg");
+}
+
+.client-3 {
+  background-image: url("/images/frankyjones.jpg")
+}
+
+.testimonial {
+  display: flex;
+  justify-content: center;
+}
+
+.vouch-text {
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+
+.social-proof {
+  height:  225px;
+  width: 225px;
+}
+
+.footer-company {
+  border-radius: 15px 0 0 0;
+  background-color: grey;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+}
+
+
+.navbar {
+  background-color: blue;
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.links {
+  color: white;
+  padding: 0 20px;
+  margin: 0 10px 0 10px;
+}
+
+.web-title {
+  background-image: url();
+}
